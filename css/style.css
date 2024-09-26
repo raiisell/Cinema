@@ -1,0 +1,47 @@
+body {
+    background-color: #621402;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-left: 17px;
+}
+
+.menu-item {
+    margin-right: 25px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 11px;
+}
+
+.user {
+    margin-left: auto;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+}
